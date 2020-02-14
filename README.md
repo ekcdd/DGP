@@ -17,7 +17,7 @@ Commands:
 	-r <len> Number of rounds to use. Default rounds is 1 and change the number of rounds will change the password generated.
   
   
-  Examples;
+  Examples:
   
   ./DGP -p "My Super secret password goes here" -n "Github"
   
