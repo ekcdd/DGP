@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>showpwd.png</file>
+        <file>MainIcon.ico</file>
+    </qresource>
+</RCC>

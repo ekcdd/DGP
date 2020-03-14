@@ -1,0 +1,13 @@
+0.2.0 - TBA
+ - Changes:
+ 1. Rewrote DGP in C++ rather than C
+ 2. DGP now compiles and WORKS as intended on Windows
+ 3. CMake is now used to compile DGP
+ 4. Fixed bug that caused the wrong password to be generated.
+    For compatability reasons, you can choose between the 'old'
+    algorithm and the new fixed one.
+ 5. Because of change #4, the -v parameter can be used to change versions.
+    Currently, 1 and 2 are the only accepted values
+
+0.1.0 14th Deb 2020
+ - First Version
