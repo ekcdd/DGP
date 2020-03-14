@@ -18,14 +18,14 @@ DGP-CLI Commands:
 	-p		 Sets the master password
 	-a		 Only use alphanumeric values
 	-n		 Name the password (add quotes if spaces are used), Changing the name alters the outcome and case is ignored.
-	-l <len> Length of the generated password. The default password length is 8
-	-r <len> Number of rounds to use. Default rounds is 1 and change the number of rounds will change the password generated.
-	-v <version> Select the version of the
-		     version of the algoritm you want to use.
-		     1 is the first version and
-		     2 is the version which has a bug fix
-  
-  
+	-l <len> 	 Length of the generated password. The default password length is 8
+	-r <len> 	 Number of rounds to use. Default rounds is 1 and change the number of rounds will change the password generated.
+	-v <version> 	Select the version of the version of the algoritm you want to use.
+			1 is the first version and
+			2 is the version which has a bug fix
+
+
+
   Examples:
   
   ./DGP-CLI -p "My Super secret password goes here" -n "Github" -v 1
